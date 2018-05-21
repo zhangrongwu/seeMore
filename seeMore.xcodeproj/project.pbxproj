@@ -15,6 +15,8 @@
 		427B28D320B2722300B8FE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B28D220B2722300B8FE6E /* main.m */; };
 		427B28DD20B2722300B8FE6E /* seeMoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B28DC20B2722300B8FE6E /* seeMoreTests.m */; };
 		427B28E820B2722300B8FE6E /* seeMoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B28E720B2722300B8FE6E /* seeMoreUITests.m */; };
+		427B28F720B2723500B8FE6E /* YYMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B28F520B2723500B8FE6E /* YYMoreViewController.m */; };
+		86E72F6968CC75FD83374E28 /* libPods-seeMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7F5C5C5056ACAE8B83C4E3 /* libPods-seeMore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375DB72D03667188347B7F05 /* Pods-seeMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seeMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seeMore/Pods-seeMore.debug.xcconfig"; sourceTree = "<group>"; };
 		427B28C020B2722100B8FE6E /* seeMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seeMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427B28C320B2722100B8FE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		427B28C420B2722100B8FE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,10 @@
 		427B28E320B2722300B8FE6E /* seeMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seeMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		427B28E720B2722300B8FE6E /* seeMoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seeMoreUITests.m; sourceTree = "<group>"; };
 		427B28E920B2722300B8FE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427B28F520B2723500B8FE6E /* YYMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMoreViewController.m; sourceTree = "<group>"; };
+		427B28F620B2723500B8FE6E /* YYMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMoreViewController.h; sourceTree = "<group>"; };
+		64B8B4EA343D13F6F072DD51 /* Pods-seeMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seeMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-seeMore/Pods-seeMore.release.xcconfig"; sourceTree = "<group>"; };
+		CE7F5C5C5056ACAE8B83C4E3 /* libPods-seeMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seeMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E72F6968CC75FD83374E28 /* libPods-seeMore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2BE2C012E59E116371CC55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375DB72D03667188347B7F05 /* Pods-seeMore.debug.xcconfig */,
+				64B8B4EA343D13F6F072DD51 /* Pods-seeMore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A16048ED35FC19DEFD3375B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F5C5C5056ACAE8B83C4E3 /* libPods-seeMore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		427B28B720B2722100B8FE6E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				427B28DB20B2722300B8FE6E /* seeMoreTests */,
 				427B28E620B2722300B8FE6E /* seeMoreUITests */,
 				427B28C120B2722100B8FE6E /* Products */,
+				1B2BE2C012E59E116371CC55 /* Pods */,
+				3A16048ED35FC19DEFD3375B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,8 @@
 				427B28C420B2722100B8FE6E /* AppDelegate.m */,
 				427B28C620B2722100B8FE6E /* ViewController.h */,
 				427B28C720B2722100B8FE6E /* ViewController.m */,
+				427B28F620B2723500B8FE6E /* YYMoreViewController.h */,
+				427B28F520B2723500B8FE6E /* YYMoreViewController.m */,
 				427B28C920B2722100B8FE6E /* Main.storyboard */,
 				427B28CC20B2722300B8FE6E /* Assets.xcassets */,
 				427B28CE20B2722300B8FE6E /* LaunchScreen.storyboard */,
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427B28EC20B2722300B8FE6E /* Build configuration list for PBXNativeTarget "seeMore" */;
 			buildPhases = (
+				9B036452FEDDBA873A2DC427 /* [CP] Check Pods Manifest.lock */,
 				427B28BC20B2722100B8FE6E /* Sources */,
 				427B28BD20B2722100B8FE6E /* Frameworks */,
 				427B28BE20B2722100B8FE6E /* Resources */,
+				C06C901EE677AD65915CD41E /* [CP] Embed Pods Frameworks */,
+				84316D9F793E242360D5AB93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +289,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84316D9F793E242360D5AB93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seeMore/Pods-seeMore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B036452FEDDBA873A2DC427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seeMore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C06C901EE677AD65915CD41E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seeMore/Pods-seeMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		427B28BC20B2722100B8FE6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				427B28C820B2722100B8FE6E /* ViewController.m in Sources */,
+				427B28F720B2723500B8FE6E /* YYMoreViewController.m in Sources */,
 				427B28D320B2722300B8FE6E /* main.m in Sources */,
 				427B28C520B2722100B8FE6E /* AppDelegate.m in Sources */,
 			);
@@ -431,15 +515,13 @@
 		};
 		427B28ED20B2722300B8FE6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375DB72D03667188347B7F05 /* Pods-seeMore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMore/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,15 +530,13 @@
 		};
 		427B28EE20B2722300B8FE6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B8B4EA343D13F6F072DD51 /* Pods-seeMore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMore/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,11 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,11 +565,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMoreTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,11 +579,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,11 +593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXA3E8963G;
 				INFOPLIST_FILE = seeMoreUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ENN.seeMoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
