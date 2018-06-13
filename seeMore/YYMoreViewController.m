@@ -29,7 +29,7 @@
     _label.userInteractionEnabled =YES;
     _label.numberOfLines =0;
     _label.textVerticalAlignment =YYTextVerticalAlignmentTop;
-    _label.frame = CGRectMake(0,100, self.view.frame.size.width,300); // 默认高度需自行控制，币得 资讯模块文案预估高度
+    _label.frame = CGRectMake(0,50, self.view.frame.size.width,300); // 默认高度需自行控制，币得 资讯模块文案预估高度
     _label.attributedText = text;
     [self.view addSubview:_label];
     
